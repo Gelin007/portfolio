@@ -1,0 +1,86 @@
+/* CONTACT */
+
+section:nth-child(4) .header {
+    color: #fff;
+}
+
+section:nth-child(4) .header-bar {
+    background: #fff;
+    margin: 25px 0 40px 0;
+    width: 120px;
+}
+
+section:nth-child(4) .highlight {
+    color: #04c2c9;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+section:nth-child(4) form {
+    margin: 40px auto 0 auto;
+    min-width: 95%;
+}
+
+@media screen and (min-width: 600px) {
+    section:nth-of-type(4) form {
+        min-width: 500px;
+    }
+}
+
+
+section:nth-child(4) input[type=text],
+section:nth-child(4) input[type=email],
+section:nth-child(4) textarea 
+{
+    background: #1e242c;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 3px;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+section:nth-of-type(4) textarea {
+    margin-bottom: 5px;
+    min-height: 150px;
+}
+
+section:nth-child(4) #success {
+    overflow: hidden;
+    height: 0;
+    position: relative;
+    transition: height 0.25s;
+    width: 100%;
+}
+
+section:nth-child(4) #success div {
+    background: #04c986;
+    border: 1px solid #157c59;
+    color: #157051;
+    font-size: 10pt;
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+section:nth-of-type(4) .button {
+    background: transparent;
+    color: #fff;
+    float: right;
+    font-size: 12px;
+    margin: 5px 0 0 0;
+    outline: 0;
+    padding: 10px 30px;
+}
+
+section:nth-of-type(4) .button:hover {
+    background: #04c2c9;
+}
+section:nth-child(4) {
+    background: #252934;
+    color: #fff;
+    padding-top: 175px;
+}
